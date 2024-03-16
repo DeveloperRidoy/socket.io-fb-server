@@ -1,0 +1,31 @@
+{
+  "name": "socket.io-fb-server",
+  "version": "1.0.0",
+  "description": "socket.io server for chat functionality in one of my web apps",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloperRidoy/socket.io-fb-server.git"
+  },
+  "author": "ridoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeveloperRidoy/socket.io-fb-server/issues"
+  },
+  "homepage": "https://github.com/DeveloperRidoy/socket.io-fb-server#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
